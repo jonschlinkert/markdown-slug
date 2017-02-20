@@ -1,0 +1,36 @@
+{
+  "name": "markdown-slug",
+  "description": "Slugify the url part of a markdown heading link.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/markdown-slug",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/markdown-slug",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/markdown-slug/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generategenerator",
+    "markdown",
+    "slug"
+  ],
+  "dependencies": {
+    "diacritics-map": "^0.1.0",
+    "extend-shallow": "^2.0.1",
+    "querystring": "^0.2.0",
+    "strip-color": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
