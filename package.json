@@ -1,7 +1,7 @@
 {
   "name": "markdown-slug",
   "description": "Slugify the url part of a markdown heading link.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/markdown-slug",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/markdown-slug",
