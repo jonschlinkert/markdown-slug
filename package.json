@@ -19,11 +19,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "generategenerator",
-    "markdown",
-    "slug"
-  ],
   "dependencies": {
     "diacritics-map": "^0.1.0",
     "extend-shallow": "^2.0.1",
@@ -31,6 +26,36 @@
     "strip-color": "^0.1.0"
   },
   "devDependencies": {
+    "gulp-format-md": "^0.1.11",
     "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "diacritics",
+    "heading",
+    "link",
+    "markdown",
+    "md",
+    "slug",
+    "slugify",
+    "url"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "markdown-toc",
+        "remarkable"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
   }
 }
